@@ -13,6 +13,14 @@ export default function App() {
         alert("You logged with USERNAME:" + userName + "   PASSWORD:" + passWord); // Alert
     } 
     
+    // React Bileşeni
+    function UsernameHeader(props) {
+	    return <h1>{props.text}</h1>
+    }
+    const element =  <UsernameHeader text="ReactUser" />;
+    ReactDOM.render(element, document.getElementById('root'));
+
+
     // Return Main Component APP
     return (
         <UserLogin headerText="Sign IN" loginButtonText="LOGIN" onClick={loginButtonClick}/>

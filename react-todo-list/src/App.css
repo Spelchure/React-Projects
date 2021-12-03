@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(85,85,85);
+  background: linear-gradient(90deg, rgba(85,85,85,1) 0%, rgba(60,60,60,1) 0%, rgba(221,221,221,1) 0%, rgba(173,173,173,1) 100%, rgba(212,215,121,1) 100%, rgba(0,0,0,1) 100%);
+  margin: 0; 
+}
+
+header {
+ margin-top: 0; 
+  background: rgb(85,85,85);
+  background: linear-gradient(90deg, rgba(85,85,85,1) 0%, rgba(60,60,60,1) 0%, rgba(38,38,38,1) 0%, rgba(55,55,55,1) 100%, rgba(212,215,121,1) 100%, rgba(0,0,0,1) 100%);
+ /* background: linear-gradient(90deg, rgba(85,85,85,1) 0%, rgba(173,173,44,1) 36%, rgba(212,215,121,1) 100%, rgba(0,212,255,1) 100%); */
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em; 
+  color: white;
+
+}
+
+header span {
+
+  margin-left: 10px;
+  text-shadow: 1px 1px 5px black;
+}
+
+div.header-right-panel {
+  display: flex;
+  margin-left: auto; 
+  margin-right: 10%;
+  min-width: 330px; 
+  width: 25%; 
+  max-width: 500px; 
+}
+
+div.header-right-panel input {
+  display: block;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  outline: none;
+  width: 280px; 
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+}
+
+div.header-right-panel span {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 6%;
+}
+
+
+div.header-right-panel span:hover {
+  transform: scale(1.2);
+}
