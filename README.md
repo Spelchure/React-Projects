@@ -12,3 +12,9 @@ Basic TODO list project with React. Topics:
 2. React Props
 3. React Components 
 4. React States
+
+## **3. react-crypto-api**
+Working with BinanceAPI using React and AXIOS. Topics:
+1. React Hooks (useState, useEffect)
+2. AXIOS
+3. Asynchronous Functionality
